@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+*{font-family: 'IM Fell Double Pica SC', serif;color: white;}
+body{background-color: #161717;}
+.container{margin: auto; width: 460px; display: flex;flex-direction: column;align-items: center;justify-content: center;gap: 30px;}
+.google-btn{align-self: flex-start; cursor: pointer; padding: 2px; align-items: center; display: flex; height: 40px; background-color:#1a73e8; border-radius: 5px;color: #161717;border: none;padding: 5px;}
+.google-btn span{font-weight: 500; color:white;padding: 5px;}
+.google-btn picture{border-radius: 2PX; width: 35px;height: 35px;}
+.google-btn:hover{opacity: 0.6;}
+.boton{align-self: flex-start;display: flex;gap: 30px;color: white;}
+.twiter-btn{color: #161717;background-color: antiquewhite;border: none;height: 40px; width: 40px;border-radius:5px ;}
+.twiter-btn:hover{background-color: rgb(192, 195, 195);}
+.separador{display: flex;width: 100%; gap: 15px;}
+.separador hr{flex-grow: 1;border: none;border-top: 1px solid #ccc; font-weight: 500;padding: 15px;}
+.separador span{color: #8b8b8b;}
+.input label input{width: 80%;padding: 10px 20px;border-radius: 10px; display: flex;gap: 10px; width: 100%;}
+label span{font-weight: 700;}
+label{display: flex;flex-direction: column; gap: 5px; width: 100%;}
+label input{transition: background-color 0.2s, border 0.2s,box-shadow 0.2s ; font-size: 14pt; outline: none; border-radius: 10px; width:100%; background-color: #767373;border: none;padding: 10px;}
+form{display: flex;flex-direction: column;align-items: stretch;gap: 30px;}
+label input:hover{background-color: #454045;border: 1px solid orange;box-shadow: 0 0 4px rgba(222, 93, 192, 0.303);width: 100%;}
+label input:focus{background-color: #454045;border: 1px solid orange;box-shadow: 0 0 4px rgba(222, 93, 192, 0.303);}
+.check-label input[type="checkbox"]{width: 20px;}
+.check-label {display: flex;flex-direction: row;}
+.check-label span{font-weight: 400;}
+.submit{cursor: pointer; font-size: 14pt; font-weight: 500; padding: 10px; color: #161717; text-align: center; background-color: rgb(220, 88, 88);border-radius: 10px;border: none;}
+.submit:hover{background-color: rgb(238, 164, 164);}
